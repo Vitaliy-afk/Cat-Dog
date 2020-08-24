@@ -17,6 +17,7 @@
     justify-content: flex-end;
     @extend %listreset;
     width: 100%;
+    text-transform: uppercase;
     @include media('>=768px') {
         display: flex;
         // padding: 0 90px 0 0;
